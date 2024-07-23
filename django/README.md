@@ -1,0 +1,1 @@
+This contains a sample django app
