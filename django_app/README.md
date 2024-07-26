@@ -20,3 +20,7 @@ Django follows MVT architecture
 - Update ```settings.py```
 - run command ```python manage.py migrate```
 - Run ```python manage.py runserver``` and goto localhost:8000/<url path> , command will direct to html page
+- Create tables
+    - create class from ```model``` class as parent in ```models.py``` file
+    - run command ```python manage.py makemigrations <app name>``` to django creates a file describing the changes
+    - run command ```python manage.py migrate``` to create db table
